@@ -8,9 +8,9 @@ Is a REST service (JSON/HTTP) for storing information about these gateways and t
 This information must be stored in the database.
 
 When storing a gateway, any field marked as “to be validated” must be validated and an error returned if it is invalid. 
-Also, no more that 10 peripheral devices are allowed for a gateway.
+Also, no more than 10 peripheral devices are allowed for a gateway.
 
-The service provide operations for displaying information about all stored gateways (and their devices) and an operation for displaying details for a single gateway. 
+The service provides operations for displaying information about all stored gateways (and their devices) and an operation for displaying details for a single gateway. 
 Finally, it must be possible to add and remove a device from a gateway
 
 Each gateway has:
@@ -26,7 +26,7 @@ Each peripheral device has:
 
 ### Installation
 1. Clone or download the project in GitHub.
-2. Go to project folder.
+2. Go to the project folder.
 3. Run the next command to build the project.
 ```bash
 mvn package
@@ -41,3 +41,6 @@ java -jar application.jar
 ```bash
 http://localhost:8080/swagger-ui.html
 ```
+
+### Notes
+There is a script that inserts some test data when you run the application.
