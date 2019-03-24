@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.musala</groupId>
     <artifactId>gateways_test</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0-RELEASE</version>
     <name>gateways_test</name>
     <description>Gateway test for Musala Soft</description>
 
